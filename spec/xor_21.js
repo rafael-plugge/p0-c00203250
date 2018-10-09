@@ -31,4 +31,9 @@ describe("xor_21()", function ()
     {
         expect(xor_21(42)).to.equal(63);
     });
+
+    it("Array test [42, 2] equals [63, 23]", function()
+    {
+        expect(xor_21([42, 2])).to.eql([63, 23]);
+    });
 });
